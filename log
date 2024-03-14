@@ -19,3 +19,20 @@ Thu 14 Mar 2024 08:37:46 PM UTC:
  tests:  0|6
 total_score: 10/70
 0df8f6c
+Thu 14 Mar 2024 08:46:50 PM UTC: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:36:31: error: expected ‘;’ before ‘}’ token
+   36 |     arr[i] = arr[size - 1 - i]
+      |                               ^
+      |                               ;
+   37 |   }
+      |   ~                            
+exercises.c:32:7: error: variable ‘temporal’ set but not used [-Werror=unused-but-set-variable]
+   32 |   int temporal;
+      |       ^~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+eac3108

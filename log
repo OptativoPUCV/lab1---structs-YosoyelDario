@@ -1,1 +1,15 @@
 
+Thu 14 Mar 2024 08:37:29 PM UTC: 
+ exercises.c | 21 ++++++++++++++++++---
+ 1 file changed, 18 insertions(+), 3 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘findMax’:
+exercises.c:15:11: error: expected identifier or ‘(’ before ‘=’ token
+   15 |   for(int = 0; i < size; i++)
+      |           ^
+exercises.c:15:16: error: ‘i’ undeclared (first use in this function)
+   15 |   for(int = 0; i < size; i++)
+      |                ^
+exercises.c:15:16: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+ab00d8e

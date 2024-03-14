@@ -30,7 +30,7 @@ invierta el orden de sus elementos.
 void reverseArray(int arr[], int size)
 {
   int temporal;
-  for(int i = size; i > size/2; i--)
+  for(int i = size; i >= 0; i--)
   {
     temporal = arr[i];
     arr[i] = arr[size - i];

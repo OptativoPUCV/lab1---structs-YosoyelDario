@@ -36,3 +36,9 @@ exercises.c:32:7: error: variable ‘temporal’ set but not used [-Werror=unuse
 cc1: all warnings being treated as errors
 Compilation failed
 eac3108
+Thu 14 Mar 2024 08:51:09 PM UTC: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+ tests:  0|6
+total_score: 10/70
+3f1ab84

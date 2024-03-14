@@ -52,15 +52,18 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
   int *newArreglo = (int*)malloc(size * sizeof(int));
   if(newArreglo == NULL) exit(EXIT_FAILURE);
 
+  int nuevoCont = 0;
   for(int i = 0; i < size; i++)
   {
     if (arr[i] % 2 == 0) 
     {
-      newArreglo[i] = arr[i];
-      newSize++;
+      newArreglo[i] = arr[nuevoCont];
+      nuevoCont++;
     }
     else continue;
   }
+  newSize = nuevoCont;
+  
   return newArreglo; 
 }
 

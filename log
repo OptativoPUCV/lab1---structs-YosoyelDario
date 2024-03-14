@@ -68,3 +68,14 @@ exercises.c:60:7: error: value computed is not used [-Werror=unused-value]
 cc1: all warnings being treated as errors
 Compilation failed
 9299e3f
+Thu 14 Mar 2024 09:10:24 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:53:33: error: returning ‘int’ from a function with return type ‘int *’ makes pointer from integer without a cast [-Werror=int-conversion]
+   53 |   if(newArreglo == NULL) return 1;
+      |                                 ^
+cc1: all warnings being treated as errors
+Compilation failed
+d69858d

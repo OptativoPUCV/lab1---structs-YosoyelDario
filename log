@@ -54,3 +54,17 @@ Thu 14 Mar 2024 09:02:23 PM UTC:
  tests:  0|5
 total_score: 20/70
 d9a7d46
+Thu 14 Mar 2024 09:10:12 PM UTC: 
+ exercises.c | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:53:33: error: returning ‘int’ from a function with return type ‘int *’ makes pointer from integer without a cast [-Werror=int-conversion]
+   53 |   if(newArreglo == NULL) return 1;
+      |                                 ^
+exercises.c:60:7: error: value computed is not used [-Werror=unused-value]
+   60 |       *newSize++;
+      |       ^~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+9299e3f

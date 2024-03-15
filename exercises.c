@@ -115,7 +115,7 @@ int checkSorted(int arr[], int size)
   {
     return 1;
   }
-  else if(ordenD == -2)
+  else if(ordenD == size -2)
   {
     return -1;
   }

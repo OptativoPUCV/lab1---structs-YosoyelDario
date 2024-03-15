@@ -291,3 +291,16 @@ exercises.c:83:5: error: ‘else’ without a previous ‘if’
       |     ^~~~
 Compilation failed
 709a4f5
+Fri 15 Mar 2024 01:14:36 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:78:72: error: expected statement before ‘)’ token
+   78 |     if((arr1[aux1] != 0 && arr2[aux2] != 0) && arr1[aux1] < arr2[aux2]))
+      |                                                                        ^
+exercises.c:83:5: error: ‘else’ without a previous ‘if’
+   83 |     else
+      |     ^~~~
+Compilation failed
+ed49cc3

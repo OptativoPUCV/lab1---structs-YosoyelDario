@@ -110,9 +110,9 @@ int checkSorted(int arr[], int size)
     }
   }
   
-  if(ordenA != size || ordenD != size)
+  if(ordenA == size)
   {
-    return 0;
+    return 1;
   }
   else if(ordenD == size)
   {
@@ -120,7 +120,7 @@ int checkSorted(int arr[], int size)
   }
   else 
   {
-    return 1;
+    return 0;
   }
 }
 

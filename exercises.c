@@ -99,7 +99,7 @@ int checkSorted(int arr[], int size)
 {
   int ordenA = 0, ordenD = 0;
   for(int i  = 0; i < size; i++)
-  if(arr[i] < arr[i + 1])
+  if(arr[i] <= arr[i + 1])
   {
     ordenA++;
   }

@@ -259,3 +259,17 @@ Fri 15 Mar 2024 01:11:53 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 cf89a2b
+Fri 15 Mar 2024 01:13:09 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:78:24: error: suggest parentheses around comparison in operand of ‘!=’ [-Werror=parentheses]
+   78 |     if(arr1[aux1] != 0 < arr2[aux2] != 0)
+      |                      ~~^~~~~~~~~~~~
+exercises.c:78:19: error: suggest parentheses around comparison in operand of ‘!=’ [-Werror=parentheses]
+   78 |     if(arr1[aux1] != 0 < arr2[aux2] != 0)
+      |        ~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+0642035

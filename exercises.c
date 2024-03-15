@@ -73,7 +73,7 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2,
                        int result[])
 {
   int aux1 = 0, aux2 = 0, auxFinal = 0;
-  while(aux1 < size1 && aux2 < size2)
+  while(aux1 < size1 || aux2 < size2)
   {
     if(arr1[aux1] < arr2[aux2])
     {

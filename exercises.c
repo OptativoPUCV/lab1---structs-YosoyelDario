@@ -118,10 +118,11 @@ int checkSorted(int arr[], int size)
   {
     return -1;
   }
-  else if(ordenA != size && ordenD != size)
+  else if(ordenA != size || ordenD != size)
   {
     return 0;
   }
+  
 }
 
 /*
